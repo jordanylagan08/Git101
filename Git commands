@@ -1,0 +1,24 @@
+Git Commands
+	
+	$ touch <file> // create file in local directory.
+	$ git --version // Check the git version installed in your machine.
+	$ git init // Initialize local git repository.
+	$ git add . // Add all files to index.
+	$ git add <file> // Add file(s) to index.
+	$ git add *<file extextion> // Add all files with the same file extention.
+	$ git rm --cached <file> // remove file previously added.
+	$ git status // Check status of working tree.
+	$ git commit // Commit or stage changes in index.
+	$ git push // Push to remote repository.
+	$ git pull // Pull latest from remote repository.
+	$ git clone // Copy a remote repository into you local directory.
+	$ git branch BR1 // To create new branch
+	$ git checout <Branch name> // Will switch to selected branch
+	$ git merge <Branch name> // Will merge or combine two working branch.
+	
+	$ git config --global user.name 'your username' //
+	$ git config --global user.email 'your email' //
+
+    $ git remote add origin <url>
+	$ git remote 
+	$ git push -u origin master
